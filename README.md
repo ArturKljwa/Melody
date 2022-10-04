@@ -1,2 +1,2 @@
-# Melody
-Учебный Проект Glo Academy
+# Melody Учебный Проект Glo Academy
+##  Проект выполнил Артур Клява
