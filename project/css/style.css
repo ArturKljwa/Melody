@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./fonts/BebasNeueRegular.woff2') format('woff2'),
+        url('./fonts/BebasNeueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #635854;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596F5;
+}
+.navbar{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    margin: 0; /* отключаем внешние отступы */
+    padding: 0; /* отключаем внутренние отступы*/
+    list-style: none; /*отключаем точки из списка */
+    display: flex;
+    text-align: center;
+}
+.navbar-item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link {
+text-decoration: none; /* отключаем подчеркивание*/
+color: #fff;
+}
+.navbar-contacts {
+text-align: right;
+}
+
+.navbar-text {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16Spx;
+    
+}
+.navbar-phone {
+text-decoration: none;
+color: #fff;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+}
+.main {
+    max-width: 1280px;
+    margin: auto;
+    padding-top: 54px;
+    display: flex;
+}
+.main-info {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+.home-image path {
+    opacity: 0;
+    cursor: pointer;
+
+}
+path.current-floor {
+    opacity: 1;
+}
+
+.home-image path:hover {
+    opacity: 1;
+}
+.counter-group{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.counter-buttom {
+    cursor:pointer;
+    background-color: #fff;
+    border: none;
+}
+.counter-arrow-down {
+    transform: rotateX(180deg);
+}
+.main-title {
+    margin: 0;
+    font-family: "BebasNeueCyrillic", sans-serif;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 44px;
+    color: #635854;
+}
+.counter{
+    font-family: "BebasNeueCyrillic", sans-serif;
+    color: #635854;
+    font-size: 124px;
+    margin-top: 10px;
+}
+.button-primary{
+    background: #3596F5;
+border-radius: 6px;
+color: #fff;
+border: none;
+padding: 16px 36px;
+cursor: pointer;
+
+}
